@@ -1,0 +1,25 @@
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>This is the TITLE</title>
+  </head>
+  <body>
+
+    <h1>The number of words is : {{counting}}</h1>
+
+
+    <br/>
+    {{fulltext}}
+
+    <h3>The words are:</h3>
+    {{dictsorted}}
+{% for word,countt in dictsorted %}
+  {{word}} - {{countt}}
+  <br/>
+{% endfor %}
+
+
+  </body>
+
+
+</html>

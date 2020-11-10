@@ -1,0 +1,24 @@
+    <h1>This is HTML of test</h1>
+    <h2> Otra mas</h2>
+
+    <p>Aca le ponemos un texto. A ver si funciona el espacio</p>
+    <p>Para escribir uno mas</p>
+
+    {{ key1}}
+    <br>
+    <form action="{% url 'about' %}">
+        <input type="submit" value="ABOUT">
+    </form>
+    <a href="{% url 'about' %}">About</a>
+    <br>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
+    <br>
+
+    <form action="{% url 'count' %}">
+        <textarea cols ='40' rows = '20' name = 'fulltext'></textarea><br/>
+        <input  type="submit" value="Count!" />
+    </form>
+
+
+
+
